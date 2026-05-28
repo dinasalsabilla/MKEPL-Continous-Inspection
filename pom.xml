@@ -8,24 +8,23 @@
   <dependency>
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
-    <version>4.11</version> <!-- Or whatever JUnit you're using. -->
-	</dependency>
+    <version>4.11</version>
+  </dependency>
 </dependencies>
 
 <distributionManagement>
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/akunmkepl/continuous_inspection</url>
+      <url>https://maven.pkg.github.com/dinasalsabilla/MKEPL-Continous-Inspection</url>
     </repository>
   </distributionManagement>
   
   <properties>
-    <maven.compiler.source>1.8</maven.compiler.source>
-    <maven.compiler.target>1.8</maven.compiler.target>
-    <sonar.organization>akunmkepl</sonar.organization>
+    <maven.compiler.source>22</maven.compiler.source>
+    <maven.compiler.target>22</maven.compiler.target>
+    <sonar.organization>dinasalsabilla</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
- </properties>
+  </properties>
 
-</project>  
-
+</project>
